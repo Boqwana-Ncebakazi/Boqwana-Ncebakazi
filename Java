@@ -1,0 +1,34 @@
+import java.util.Scanner;
+ public class Rectangle{
+  Scanner int input_height(){
+  Sc= new Scanner(System.in);
+   System.out.println("Enter the height of the rectangle ");
+     float height=console.nextint();
+     return height;
+
+} 
+Scanner int input_width(){
+  Sc= new Scanner(System.in);
+  System.out.println("Enter the width of the rectangle ");
+   float width= console.nextint();
+   return width;
+
+}
+  static int calcArea(){
+     int Area= input_height();
+     int Aeea= input_width();
+      return  area;
+}
+  static int calcPerimeter(){
+  int perimeter= (input_height*2) +(input_width*2);
+   return perimeter;
+
+
+}
+ public static void main(String[]args){
+  int a= calcArea();
+  int p= calcPerimeter();
+  System.out.println("The area of the rectangle is:"+a+"m");
+  System.out.println("The perimeter of the rectangle is:"+p+"m");
+} 
+ }
